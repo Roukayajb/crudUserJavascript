@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Connexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+    <script src="jspdf.debug.js"></script>
+</head>
+
+<body id="target">
+    <!--Header-->
+    <header id="header" class="header">
+        <div class="topleft">
+            <div class="navbarheader">
+                <a class="navbarleft" href="./main.html">ADMIN</a>
+            </div>
+        </div>
+        <div class="topright">
+            <div class="header-menu">
+                <div class="header-left">
+                    <button class="search" type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="notification">
+                    <button class="notify" type="button"><i class="fa fa-bell"></i></button>
+                </div>
+                <div class="messages">
+                    <button class="msg" type="button"><i class="fa fa-envelope"></i></button>
+                </div>
+                <div class="profile">
+                    <img class="user circle" src="images/account.jpg" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--leftpanel-->
+    <aside id="leftpanel" class="leftpanel">
+        <nav class="nav navbar-nav">
+            <div class="leftmenu">
+                <div class="btn-left-1"><button id="btn-list" class="btn1"><a href="list.html">LIST</a></button></div>
+                <div class="btn-left-2"><button id="btn-add" class="btn2"><a href="add.html">ADD</a></button></div>
+
+            </div>
+        </nav>
+    </aside>
+    <!--content-->
+    <section class="section-form">
+        <form class="form-css">
+            <span class="input-label">Username:</span>
+            <div class="input-name">
+                <input id="name" class="input-form" type="text" placeholder="Name">
+            </div>
+            <span>
+                <p id="output1"></p>
+            </span>
+            <span class="input-label">Mail: </span>
+            <div class="input-name">
+                <input id="mail" class="input-form" type="text" placeholder="Email adress">
+            </div>
+            <span>
+                <p id="output2"></p>
+            </span>
+            <div class="input-name">
+                <span class="input-label">Date:</span>
+                <input id="date" class="input-form" type="date">
+            </div>
+            <span>
+                <p id="output3"></p>
+            </span>
+            <div class="input-name">
+                <span class="input-label"> Mot de passe:</span>
+                <input id="pwd" class="input-form" type="text" placeholder="****************">
+            </div>
+            <!-- lorsqu'on clique sur le bouton ajouter la fonction verifier s'éxecut-->
+            <div class="btn-container">
+                <button id="res" class="sign-btn" value="AJOUTER" onclick="verifier()">CONFIRM</button>
+            </div>
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

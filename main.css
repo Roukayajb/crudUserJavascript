@@ -1,0 +1,171 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.contain{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+.affiche{
+    background-color: beige;
+    width: 100%;
+}
+::before{
+    box-sizing: inherit;
+}
+.inscri{
+        min-height: 100vh;
+        background: #fff;
+        border-radius: 2px;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 130px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+.logform{
+    width: 100%;
+    justify-content: space-between;
+    background: #fff;
+}
+.signtitle {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 59px;
+    font-weight: bold;
+}
+input {
+    outline: none;
+    border: none;
+    text-shadow: none;
+    
+}
+::placeholder{    background: transparent;}
+.input-name{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #dbdbdb;
+    margin-bottom: 45px;
+}
+.input-label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999999;
+    line-height: 1.2;
+    padding-left: 2px;
+}.input-form{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    font-family: Poppins-Regular;
+    font-size: 22px;
+    color: #555555;;
+    line-height: 1.2;
+    padding: 0 2px;
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-btn{
+    background: -webkit-linear-gradient(top, #e8519e, #c77ff2, #e8519e, #c77ff2);
+    width: 50%;
+    border-radius: 25px;
+    height: 140%;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    align-items: center;
+}
+.a-text{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #666666;
+    text-decoration: none;
+    
+}
+.input-item{
+    margin: -5% 70% -20% 0%;
+    padding: 0px 20px 0px 0px;
+}
+section.section-form {
+    display: inline-block;
+    text-align: justify;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    font-size: 100%;
+    margin: 6% 0% 0% 35%;
+}
+.form-css{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    width: 70%;
+}
+.td-list{
+    padding: 0px 15px 0px 20px;;
+}
+.table-form{
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.table-form thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.table-form tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 5px 15px 5px 15px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.table-form-zebra tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+.table-form-zebra tbody tr:nth-child(even) {
+    background-color: cornsilk;;
+}
+.table-form-horizontal tbody td {
+    border-left: none;
+    border-right: none;
+}
+.bt-edit{
+    border-radius: 5px;
+    background-color:rgba(89, 167, 11, 0.45);
+    border-style: double;
+    border-color: black;
+    width: 80%;
+}
+.bt-delete{
+    border-radius: 5px;
+    background-color: red;
+    border-style: double;
+    border-color: black;
+}
