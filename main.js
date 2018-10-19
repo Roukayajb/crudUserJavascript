@@ -43,7 +43,7 @@ function verifier() {
     }
     //controle sur le niveau de sécurité d'un mot de passe
     for (i = 0; i < userpwd.length; i++) {
-        if ((userpwd[i].match(up)) || (userpwd[i].match(s)) || (userpwd[i].match(nb))) {
+        if ((userpwd[i].match(up)) || (userpwd[i].match(re)) || (userpwd[i].match(nb))) {
             indice1++;
         } else {
             indice2++;
