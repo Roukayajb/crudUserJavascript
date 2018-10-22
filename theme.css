@@ -1,0 +1,163 @@
+body{
+font-family: OpenSans-Regular, sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+}
+div{
+    display: block;
+}
+.log{
+    width: 500px;
+    background:  #cfc5cc;
+    border-radius: 10px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    overflow: hidden;
+    margin: 3% 0% 0% 25%;
+}
+.design{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.account{
+    display: block;
+    font-family: OpenSans-Regular;
+    font-size: 30px;
+    color:black;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 33px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mail{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+input{
+    outline: none;
+    border: none;
+}
+input,button{
+    overflow: visible;
+}
+.mailin{
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+    height: 68px;
+    padding: 0 25px 0 25px;
+}
+.input1,input1-2{display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.passw{
+    border-top: none;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+.passin{
+    height: 68px;
+    padding: 0 25px 0 25px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+}
+.but{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.butclick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(235, 121, 210);
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+.newtab{
+    padding-bottom: 4px;
+    padding-top: 45px;
+    text-align: center!important;
+}
+.on{
+    font-family: OpenSans-Regular;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #0e0c0c;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    text-decoration: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.div2{
+    margin: 5% 60% 0% 0%;
+}
+.table1{ 
+   width: 100%;
+ margin-bottom: 20px;
+}
+ .table1>tbody>tr>td {
+    padding: 35px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.tsaksfont{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.input-task{
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+}
+.logout
+    {
+        margin: -10% 0% 0% 0%;
+        float: right;
+        background-color: khaki;
+    }
+.tablecontainer{
+    margin: -20% 9% 20% 70%;
+}

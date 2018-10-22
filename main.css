@@ -85,6 +85,14 @@ input {
     justify-content: space-between;
     align-items: center;
 }
+.loginlien{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
 .sign-btn{
     background: -webkit-linear-gradient(top, #e8519e, #c77ff2, #e8519e, #c77ff2);
     width: 50%;
@@ -168,4 +176,5 @@ section.section-form {
     background-color: red;
     border-style: double;
     border-color: black;
+    width: 80%;
 }

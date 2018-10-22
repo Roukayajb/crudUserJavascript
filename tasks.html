@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="theme.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div>
+        <h1>HELLO</h1>
+    </div>
+    <div class="logout"><a href="log.html" onclick="deconnexion()">DECONNEXION</a></div>
+    <div class="div2">
+        <table class="table1">
+            <tr>
+                <td class="tsaksfont">TASKS</td>
+            </tr>
+            <tr>
+                <td><input class="input-task" id="taskname" type="text" placeholder="Your task" /></td>
+            </tr>
+            <tr>
+                <td><input class="input-task" id="tasktime" type="date" placeholder="Time for task" /></td>
+            </tr>
+            <tr>
+                <td><button class="input-task" id="btntask" onclick="savetasks()" style="width: 30%">OK</button>
+                    <button class="input-task" id="btnview" onclick="viewtask()" style="width: 30%">View tasks</button>
+                    <button class="input-task" id="btnedit" onclick="editask()" style="width: 30%">Edit tasks</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="todo" class="tablecontainer">
+        
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

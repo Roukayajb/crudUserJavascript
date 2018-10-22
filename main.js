@@ -3,7 +3,7 @@
 
 function verifier() {
     var indice1 = 0;//compteurs pour examiner si un mot de passe est fort ou non 
-    var indice2 = 0; 
+    var indice2 = 0;
     var up = /[A-Z]/;//intervale de lettres en majuscule
     var nb = /[0-255]/g;//intervale pour les chiffres
     var test1 = true;//variables booléens pour valider que les conditions d'inscription ont été respecté
@@ -78,4 +78,5 @@ function verifier() {
     }
 
 }
+
 
